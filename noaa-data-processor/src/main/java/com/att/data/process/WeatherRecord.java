@@ -98,6 +98,7 @@ public class WeatherRecord {
 	public String toString() {
 		StringBuilder sbuf = new StringBuilder();
         sbuf.append('[').append(year).append(", ").append(month).append(", ")
+        .append(day).append(", ")
         .append(hour).append(", ").append(temperature)
             .append(']');
         return sbuf.toString();
